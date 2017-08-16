@@ -1,0 +1,28 @@
+{
+  "name": "jvcreditltda",
+  "version": "1.0.0",
+  "description": "beginning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/joaorocha89/jv-wallet"
+  },
+  "author": "joaorocha",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
